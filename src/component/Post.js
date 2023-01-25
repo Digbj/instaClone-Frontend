@@ -19,7 +19,7 @@ const Posts = (props) => {
                 </div>
             </div>
             <div className="image-box">
-                <img className='post-image' src={`https://insta-clone-app-0eac.onrender.com/images/${data.imgFile}`}  alt="post" />
+                <img className='post-image' src={`https://ultramarine-firefly-vest.cyclic.app/images/${data.imgFile}`}  alt="post" />
             </div>
             <div className="footer">
                 <span><img className='heart-icon' src={heart} alt="heart" /></span>

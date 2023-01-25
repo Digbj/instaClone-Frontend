@@ -6,7 +6,7 @@ import Navig from './Nav';
 const Wrapper = () => {
     const [serverResponse, setServerResponse] = useState('');
     const fetchAllPosts = async () => {
-        const resp = await fetch('https://insta-clone-app-0eac.onrender.com/posts')
+        const resp = await fetch('https://ultramarine-firefly-vest.cyclic.app/posts')
         setServerResponse(await resp.json())
 
     }
